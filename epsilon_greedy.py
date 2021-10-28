@@ -2,14 +2,17 @@ import numpy as np
 
 """
 Problem is called the multi arm bandit and focuses on exploration vs exploitation trade off.
-By choosing to go what seems the best value at the start we minimize are chances to maximize our final reward.
+By choosing to go what seems the best value at the start we minimize are chances to maximize our 
+final reward.
 Strategy to get close to the best value when our options are limited
 for example i have 300 days to explore 3 restraunts and am not aware of the best of the three.
 I can use the epsilon greedy strategy to choose the optimal one and deviate from the optimal with
 a probability of epsilon.
-The final result that I get dependant on the number of iterations should reflect choice closest to the best
+The final result that I get dependant on the number of iterations should reflect choice closest to 
+the best
 outcome.
-In the experiment below I am using probability values and as a result my goal is to get close to the greatest
+In the experiment below I am using probability values and as a result my goal is to get close to 
+the greatest
 probability value. I am not aware of the probability values during my experiment.
 """
 

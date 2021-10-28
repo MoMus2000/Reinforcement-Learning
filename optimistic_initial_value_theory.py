@@ -3,7 +3,8 @@ Very simple modification of the purely greedy method, that is selecting the appa
 best outcome each and every time.
 We initialize our mean to a large very and trickle downward using a greedy approach
 The initial estimated_prob acts as a hyper parameter, High value makes the algorithm explore
-because the greedy algorithm believes that the mean is high, if the value is initialized to a smaller value,
+because the greedy algorithm believes that the mean is high, if the value is initialized to a 
+smaller value,
 it explores lesser.
 """
 import numpy as np
